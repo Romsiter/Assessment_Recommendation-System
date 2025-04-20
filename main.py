@@ -19,7 +19,7 @@ app.add_middleware(
     allow_headers=["*"],
 )
 # Path to saved FAISS index
-index_path = r"C:\Users\PRANAV BHARDWAJ\OneDrive\Desktop\SHL Assessment\faiss_index"
+index_path = r"faiss_index"
 
 
         
@@ -31,7 +31,7 @@ def load_assets():
     global df, index, model
     try:   
         
-        with open('C:\Users\PRANAV BHARDWAJ\OneDrive\Desktop\SHL Assessment\processing\processed_shl_assessments.json', 'r', encoding='utf-8') as f:
+        with open(r'processing\processed_shl_assessments.json', 'r', encoding='utf-8') as f:
             data = json.load(f)
 
         df = pd.DataFrame(data)
