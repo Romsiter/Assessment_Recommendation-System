@@ -1,0 +1,14 @@
+streamlit
+scrapy
+faiss-cpu
+sentence-transformers
+google-generativeai
+pandas
+numpy
+scikit-learn
+python-dotenv
+transformers
+tqdm
+pathlib
+fastapi
+uvicorn
