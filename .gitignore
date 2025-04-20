@@ -1,1 +1,18 @@
+# Python virtual environments
+venv/
+myenv/
 
+# Byte-compiled / optimized Python files
+__pycache__/
+*.py[cod]
+
+# Distribution / packaging
+build/
+dist/
+*.egg-info/
+
+# Jupyter notebooks checkpoints
+.ipynb_checkpoints
+
+# Data and cache files
+faiss_index/  # exclude if loading externally
